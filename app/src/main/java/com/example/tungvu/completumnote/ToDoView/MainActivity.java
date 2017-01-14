@@ -15,7 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // http://stackoverflow.com/questions/14671897/super-oncreatesavedinstancestate
         super.onCreate(savedInstanceState);
+        // http://stackoverflow.com/questions/24706348/what-is-setcontentviewr-layout-main
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
