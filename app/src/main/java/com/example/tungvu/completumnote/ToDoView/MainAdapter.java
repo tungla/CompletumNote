@@ -143,6 +143,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         return toDoItems ==  null ? 0 : toDoItems.size();
     }
 
+    // ViewHolder class
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public TextView toDoText;
         public TextView dateText;
